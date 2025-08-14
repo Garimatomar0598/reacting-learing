@@ -4,16 +4,12 @@ import Card from './Components/Card'
 
 function App() {
 
-
-
   return (
-    <div>
-
-  
-
-  <Card />
-    </div>
+    <>
+    <h1>Hey Fragements</h1>
+    <Card/>
+    </>
   )
 }
 
-export default App
+export default App;
