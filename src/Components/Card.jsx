@@ -21,6 +21,8 @@ function Card() {
 <div  className='w-full px-3 py-4 bg-cyan-300'>
   <h2 className='font-semibold'>{elem.name}</h2>
   <p className='text-xs mt-3'>{elem.description}</p>
+  <button className='text-xs mt-3 bg-zinc-800 text-zinc-100 py-1 px-2 rounded'>Read More</button>
+
 </div>
 
 </div>
@@ -31,4 +33,4 @@ function Card() {
   )
 }
 
-export default Card
+export default Card;
