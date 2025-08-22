@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import Card from './Components/Card'
+
 
 function App() {
  const [banned,setbanned] = useState(false);
